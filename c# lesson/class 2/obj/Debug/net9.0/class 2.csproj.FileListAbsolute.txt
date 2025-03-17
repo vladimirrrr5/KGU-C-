@@ -1,0 +1,14 @@
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\bin\Debug\net9.0\class 2.exe
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\bin\Debug\net9.0\class 2.deps.json
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\bin\Debug\net9.0\class 2.runtimeconfig.json
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\bin\Debug\net9.0\class 2.dll
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\bin\Debug\net9.0\class 2.pdb
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\class 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\class 2.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\class 2.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\class 2.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\class 2.dll
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\refint\class 2.dll
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\class 2.pdb
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\class 2.genruntimeconfig.cache
+C:\Users\vladi\OneDrive\Рабочий стол\KGU C#\c# lesson\class 2\obj\Debug\net9.0\ref\class 2.dll
