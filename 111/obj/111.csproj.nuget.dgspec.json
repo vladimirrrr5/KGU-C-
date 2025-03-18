@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\Лабораторная работа №1\\Лабораторная работа №1.csproj": {}
+    "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\111\\111.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\Лабораторная работа №1\\Лабораторная работа №1.csproj": {
+    "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\111\\111.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\Лабораторная работа №1\\Лабораторная работа №1.csproj",
-        "projectName": "Лабораторная работа №1",
-        "projectPath": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\Лабораторная работа №1\\Лабораторная работа №1.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\111\\111.csproj",
+        "projectName": "111",
+        "projectPath": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\111\\111.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\Лабораторная работа №1\\obj\\",
+        "outputPath": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\111\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS SDK\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
