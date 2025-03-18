@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\lab 2\\lab 2.csproj": {}
+    "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\lab 2\\lab 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\lab 2\\lab 2.csproj": {
+    "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\lab 2\\lab 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\lab 2\\lab 2.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\lab 2\\lab 2.csproj",
         "projectName": "lab 2",
-        "projectPath": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\lab 2\\lab 2.csproj",
+        "projectPath": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\lab 2\\lab 2.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\KGU C#\\lab 2\\obj\\",
+        "outputPath": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\C#\\lab 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VS SDK\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
