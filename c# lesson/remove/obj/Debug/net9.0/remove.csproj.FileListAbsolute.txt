@@ -1,0 +1,15 @@
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\bin\Debug\net9.0\remove.exe
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\bin\Debug\net9.0\remove.deps.json
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\bin\Debug\net9.0\remove.runtimeconfig.json
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\bin\Debug\net9.0\remove.dll
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\bin\Debug\net9.0\remove.pdb
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\remove.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\remove.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\remove.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\remove.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\remove.sourcelink.json
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\remove.dll
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\refint\remove.dll
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\remove.pdb
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\remove.genruntimeconfig.cache
+C:\Users\vladi\OneDrive\Рабочий стол\C#\c# lesson\remove\obj\Debug\net9.0\ref\remove.dll

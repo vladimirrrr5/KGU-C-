@@ -9,15 +9,15 @@ namespace lab2
         {
             StudentGroup group = new StudentGroup();
 
-            Student first = new("Anna","ddd",20,2005,1);
-            Student second = new("Борис","ddd",20,2005,2);
+            Student first = new("Anna","ddd",20,2005,01);
+            Student second = new("Борис","ddd",20,2005,11);
 
             group.Add(first);
             group.Add(second);
 
             while (true)
             {
-                Console.WriteLine("Введите команду (1 - Добавление,  2 - Список всех студентов, 3 - Выход):");
+                Console.WriteLine("Введите команду (1 - Добавление,  2 - Список всех студентов,3 - Удаление, 4 - Выход):");
                 string input = Console.ReadLine();
 
                 switch (input)
@@ -34,6 +34,9 @@ namespace lab2
                         group.PrintAllStudents();
                         break;
                     case "3":
+                        group.DeleteStudent();
+                        break;
+                    case "4":
                         return;
                     default:
                         Console.WriteLine("Неизвестная команда");
@@ -68,7 +71,8 @@ namespace lab2
             int age = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите год рождения:");
             int date = int.Parse(Console.ReadLine());
-            int ID = 3;
+            Console.WriteLine("Введите id студента");
+            int ID = int.Parse(Console.ReadLine());
 
             return new Student(name, family, age, date, ID);
         }
@@ -79,7 +83,7 @@ namespace lab2
     }
     class StudentGroup
     {
-        public List<Student> Students { get; } = new List<Student>();
+        public List<Student> Students  = new List<Student>();
         public void Add(Student student)
         {
             Students.Add(student);
@@ -96,6 +100,25 @@ namespace lab2
                 {
                     student.Print();
                 }
+            }
+        }
+        public void DeleteStudent()
+        {
+            Console.WriteLine("Введите ID студента");
+            int idToDelete = int.Parse(Console.ReadLine());
+            Student studentToRemove = null;
+            foreach (var student in Students)
+            {
+                if (student.ID == idToDelete)
+                {
+                    studentToRemove = student;
+                    break;
+                }
+            }
+            if (studentToRemove != null)
+            {
+                Students.Remove(studentToRemove);
+                Console.WriteLine("Студент удален.");
             }
         }
     }
