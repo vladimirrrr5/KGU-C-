@@ -9,15 +9,15 @@ namespace lab2
         {
             StudentGroup group = new StudentGroup();
 
-            Student first = new("Anna","ddd",20,2005,01);
-            Student second = new("Борис","ddd",20,2005,11);
+            Student first = new("Boris","Elcin",20,2005,01);
+            Student second = new("Anna","Ivanova",20,2005,11);
 
             group.Add(first);
             group.Add(second);
 
             while (true)
             {
-                Console.WriteLine("Введите команду (1 - Добавление,  2 - Список всех студентов,3 - Удаление, 4 - Выход):");
+                Console.WriteLine("Введите команду (1 - Добавление,  2 - Список всех студентов,3 - Удаление, 4 - сортировка, 5 - Выход):");
                 string input = Console.ReadLine();
 
                 switch (input)
@@ -37,6 +37,9 @@ namespace lab2
                         group.DeleteStudent();
                         break;
                     case "4":
+                        group.StudentSort();
+                        break;
+                    case "5":
                         return;
                     default:
                         Console.WriteLine("Неизвестная команда");
@@ -45,13 +48,14 @@ namespace lab2
             }
         }
     }   
-    class Student
+    class Student : IComparable<Student>
     {
         public string name;
         public string family;
         public int age;
         public int date;
         public int ID;
+        
         public Student(string name, string family, int age, int date, int ID)
         // конструктор для инициализации параметров объекта
         {
@@ -75,6 +79,10 @@ namespace lab2
             int ID = int.Parse(Console.ReadLine());
 
             return new Student(name, family, age, date, ID);
+        }
+         public int CompareTo(Student other)
+        {
+            return string.Compare(this.name, other.name, StringComparison.Ordinal);
         }
         public void Print()
         {
@@ -120,6 +128,11 @@ namespace lab2
                 Students.Remove(studentToRemove);
                 Console.WriteLine("Студент удален.");
             }
+        }
+        public void StudentSort()
+        {
+            Students.Sort();
+            Console.WriteLine("Студенты отсортированы");
         }
     }
 }
